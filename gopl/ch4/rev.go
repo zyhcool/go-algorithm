@@ -4,7 +4,7 @@ import "fmt"
 
 func main() {
 	arr := [4]int{1, 2, 3, 4}
-	slc := arr[1:3]
+	slc := arr[0:2]
 	fmt.Printf("array: %v\n", arr)
 	fmt.Printf("slice: %v\n", slc)
 	fmt.Printf("length of slice: %d\n", len(slc))
